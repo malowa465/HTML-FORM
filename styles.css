@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	padding: 0 30px;
+	background-color: #eceef1;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #0077C5;
+}
+
+a:visited {
+	color: #0077C5;
+}
+
+.flexPls {
+	display: flex;
+}
+
+
+
+/* Header Style */
+
+header {
+	padding-top: 10px;
+	justify-content: flex-end;
+}
+
+header p {
+	margin: 0 10px 0 0;
+	font-size: 75%;
+	text-align: end;
+}
+
+#headerP1 {
+	margin: 3px 10px;
+	color: #505050;
+}
+
+#signInButton {
+	align-items: center;	
+	background: #0077c5;
+	padding: 8px 15px;
+	color: white;
+	border-radius: 5px;
+	font-size: 110%;
+	border: 1px solid #505050;
+}
+
+#signInButton img, #createAccount img {
+	height: 17px;
+	margin-right: 6px;
+}
+
+@media screen and (max-width: 768px) {
+	header div, #signInButton{
+		display: none;
+	}
+}
+
+/* Main Style */
+
+main {
+	margin: 20px auto;
+	width: 380px;
+}
+
+#intuitLogo {
+	display: block;
+	margin: 0 auto;
+	width: 128px;
+}
+
+#mint-quick-turbo {
+	margin: 10px auto;
+	width: 85%;
+	justify-content: space-around;
+}
+
+.pointerPls:hover {
+	cursor: pointer;
+}
+
+#createBox {
+	text-align: center;
+	background: #ffffff;
+	border: solid 1px #c7c7c7;
+	padding: 30px 30px 0 30px;
+	border-bottom: none;
+}
+
+#createBox h2 {
+	color: #4C4C4C;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+#createBox p {
+	color: #4C4C4C;
+	font-size: 85%;
+	margin-bottom: 0;
+}
+
+#learnMore {
+	font-size: 75%;
+}
+
+form {
+	margin-top: 30px;
+}
+
+form label {
+	width: 100%;
+	text-align: left;
+}
+
+.labelP {
+	margin-top: 30px;
+}
+
+form input {
+	margin-top: 10px;
+	display: block;
+	width: 100%;
+	height: 33px;
+	border: solid 1px #c7c7c7;
+	border-radius: 2px;
+}
+
+form input:focus {
+    border: 1px solid #52A8EC;
+    -webkit-box-shadow: 0 1px 1px #FFF inset, 0 0 8px #52A8EC;
+    box-shadow: 0 1px 1px #FFF inset, 0 0 8px #52A8EC;
+    outline: 0 none;
+    border-color: rgba(82, 168, 236, 0.8);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+#standardCall {
+	margin: 5px 0;
+	font-size: 60%;
+	text-align: left;
+	font-weight: 300;
+	color: #4C4C4C;
+}
+
+#createAccount {
+	height: 45px;
+	width: 100%;
+	background: #0077C5;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+#createAccount p {
+	font-size: 105%;
+	color: white;
+	margin: 0;
+}
+
+i {
+	font-size: 75%;
+	color: #757575;
+	line-height: 20px;
+	width: 74%;
+	display: block;
+	margin: 30px auto 0 auto;
+	padding-bottom: 30px;
+}
+
+#googleCaptcha {
+	border: solid 1px #c7c7c7;
+	border-top: none;
+}
+
+#googleCaptcha h6{
+	margin: 0 auto;
+	padding: 25px;
+	font-size: 65%;
+	font-weight: 300;
+	text-align: center;
+	color: #8d9096;
+}
+
+
+
+/* Footer Style */
+
+footer {
+	text-align: center;
+	color: #505050;
+	font-size: 75%;
+}
+
+footer div, p {
+	margin: 5px;
+}
+
+#legalLinks a{
+	text-decoration: none;
+	color: #505050;
+	margin: 0 7px;
+}
+
